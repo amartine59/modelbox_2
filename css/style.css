@@ -50,9 +50,10 @@ p{margin:0px;}
   border: 2px solid black;
   background: linear-gradient(rgb(182, 182, 182),rgb(238, 236, 236));
   margin-bottom:20px;
+  padding-top: 10px;
 }
 .content-wrapper{
-  padding: 15px 22px 17px 22px;
+  padding: 0px 15px 17px 15px;
 }
 
 .column-4-5{
@@ -61,8 +62,6 @@ p{margin:0px;}
   width: 45%;
   align-self: stretch;
 }
-
-
 
 .footer{
   border: 2px solid black;
