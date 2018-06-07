@@ -20,7 +20,7 @@ p{margin:0px;}
 .d-flex{display: flex;}
 .justify-center{justify-content: center;}
 .align-center{align-items: center}
-.justify-content{justify-content:first baseline;}
+.justify-content{justify-content:space-around;}
 
 .header-wrapper{
   border: 2px solid black;
@@ -33,7 +33,7 @@ p{margin:0px;}
   
 }
 .column-wrapper{
-  padding: 15px 8px 15px 18px;
+  padding: 15px 4px 15px 18px;
 }
 .column-1-3{
   height: 300px;
@@ -58,12 +58,11 @@ p{margin:0px;}
 .column-4-5{
   height: 245px;
   border: 2px dashed black;
-  width: 37%;
+  width: 45%;
+  align-self: stretch;
 }
 
-.column-4{
-  margin-right: 25px;
-}
+
 
 .footer{
   border: 2px solid black;
